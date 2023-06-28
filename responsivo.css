@@ -1,0 +1,249 @@
+@media (max-width: 376px) {
+    .container main::before {
+        background-image: none;
+    }
+
+    #forma {
+        position: relative;
+        width: 250px;
+        height: 35px;
+        margin-top: 10px;
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    #forma h1 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+        display: block;
+    }
+
+    .container {
+        height: 507px;
+        width: 375px;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+
+    .container main {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 375px;
+        height: 507px;
+
+    }
+
+    .main-item1 {
+        background-color: #f1f1f1;
+        height: 241px;
+        margin: 0;
+        padding: 0 30px;
+        width: 375px;
+
+    }
+
+    .main-item1::after {
+        display: none;
+    }
+
+    .main-item1 h1 {
+        display: none;
+    }
+
+    .main-item1 h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    .main-item1 p {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    .main-item2 {
+        height: 266px;
+        width: 375px;
+    }
+
+    .main-item2-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+        gap: 10px;
+        border-radius: 0;
+        width: 375px;
+        height: 266px;
+        background: #0047AB;
+    }
+
+    .main-item2-content h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #fff;
+    }
+
+    .idioma {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 0px 0px 7px;
+        gap: 12px;
+        width: 280px;
+        height: 50px;
+        background: rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 35px;
+    }
+
+    .idioma h3 {
+        font-family: Verdana;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .idioma img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .nivel {
+        background-color: #f1f1f1;
+        width: 375px;
+    }
+
+    .nivel-content1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nivel-content1 h1 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #0f0f0f;
+        margin-bottom: 10px;
+    }
+
+    .nivel-content1 p {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    .nivel-content1 h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #0f0f0f;
+    }
+
+    .nivel-content2 {
+        margin: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nivel-card {
+        width: 150px;
+        height: 50px;
+        box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .card-text {
+        position: absolute;
+        top: 13px;
+        left: 20px;
+    }
+
+    .nivel-card h1 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .card-color {
+        height: 101px;
+        width: 101px;
+        top: -25px;
+        left: 110px;
+    }
+    
+
+    #inv {
+        display: none;
+    }
+
+    .mobile-basico,
+    .mobile-inter,
+    .mobile-avancado {
+        display: block;
+        width: 375px;
+    }
+
+    .mobile-basico h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #3b8c34;
+    }
+
+    .mobile-inter h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #e6b40a;
+    }
+
+    .mobile-avancado h2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #d54600;
+    }
+}
